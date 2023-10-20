@@ -1,4 +1,4 @@
-# Arquivos e diretÃ³rios do Visual Studio
+# Arquivos e diretórios do Visual Studio
 .vscode/
 .vs/
 /bin/
@@ -14,7 +14,7 @@
 /packages/
 *.lock.json
 
-# Arquivos de compilaÃ§Ã£o de Visual Studio
+# Arquivos de compilação de Visual Studio
 *.dll
 *.pdb
 *.exe
@@ -22,7 +22,7 @@
 *.cache
 *.log
 
-# DiretÃ³rios de saÃ­da de build
+# Diretórios de saída de build
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -39,10 +39,10 @@ x86/
 [Tt]est[Rr]esult*/
 [Tt]est[Rr]esults*/
 
-# DiretÃ³rios especÃ­ficos de IDEs
+# Diretórios específicos de IDEs
 .idea/
 
-# Ficheiros de configuraÃ§Ã£o de utilizador
+# Ficheiros de configuração de utilizador
 *.suo
 *.user
 *.userosscache
@@ -53,20 +53,20 @@ x86/
 *.xproj
 *.sln
 
-# DiretÃ³rios de dependÃªncias
+# Diretórios de dependências
 /project.lock.json
 /project.fragment.lock.json
 artifacts/
 
-# DiretÃ³rios de TDS
+# Diretórios de TDS
 [Tt]ds_Debug/
 [Tt]ds_Release/
 
-# DiretÃ³rios de teste
+# Diretórios de teste
 testresults/
 [Bb]uild[Ll]og.*
 
-# Arquivos de publicaÃ§Ã£o web
+# Arquivos de publicação web
 _PublishedWebsites/
 *.dbmdl
 *.dbproj.schemaview
