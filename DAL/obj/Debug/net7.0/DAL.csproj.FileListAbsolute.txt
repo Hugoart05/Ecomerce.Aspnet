@@ -1,0 +1,15 @@
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\bin\Debug\net7.0\Dominio.dll
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\bin\Debug\net7.0\Dominio.pdb
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\googo\source\repos\Api.Ecomerce.Estudo\DAL\obj\Debug\net7.0\ref\DAL.dll
