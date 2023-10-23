@@ -1278,6 +1278,19 @@
         "runtime": {
           "bin/placeholder/Dominio.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -3572,6 +3585,11 @@
       "type": "project",
       "path": "../Dominio/Dominio.csproj",
       "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3581,6 +3599,7 @@
       "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.12",
+      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3613,6 +3632,9 @@
           "projectReferences": {
             "C:\\Users\\googo\\source\\repos\\Api.Ecomerce.Estudo\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\googo\\source\\repos\\Api.Ecomerce.Estudo\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\googo\\source\\repos\\Api.Ecomerce.Estudo\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\googo\\source\\repos\\Api.Ecomerce.Estudo\\Services\\Services.csproj"
             }
           }
         }

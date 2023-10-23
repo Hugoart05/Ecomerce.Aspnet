@@ -1,5 +1,6 @@
 ﻿using DAL.Context;
 using DAL.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,29 +16,58 @@ namespace DAL.Repositories
         {
             _context = contexto;
         }
+        public async Task<ICollection<T>> GetAll()
+        {
+            var collectionT = await _context.Set<T>().ToListAsync();
+            return collectionT;
+        }
+        public T Get(int id)
+        {
+            return _context.Set<T>().Find(id);
+        }
         public bool Create(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Entry(entity).State = EntityState.Added;
+                _context.SaveChanges();
+                return true;
+
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public bool Delete(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Entry(entity).State = EntityState.Deleted;
+                _context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
-        public T Get(int id)
-        {
-            throw new NotImplementedException();
-        }
 
-        public ICollection<T> GetAll()
-        {
-            throw new NotImplementedException();
-        }
 
         public bool Update(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Entry(entity).State = EntityState.Modified;
+                _context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
